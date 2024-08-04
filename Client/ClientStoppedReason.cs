@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Client.ClientStoppedReason
+// Type: AsyncNetStandard.Tcp.Client.ClientStoppedReason
 namespace AsyncNetStandard.Tcp.Client
 {
   public enum ClientStoppedReason

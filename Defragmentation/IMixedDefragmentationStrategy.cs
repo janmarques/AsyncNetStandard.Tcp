@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.IMixedDefragmentationStrategy
+// Type: AsyncNetStandard.Tcp.Defragmentation.IMixedDefragmentationStrategy
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   /// <summary>
@@ -11,7 +11,7 @@ namespace AsyncNetStandard.Tcp.Defragmentation
     int ReadBufferLength { get; }
 
     /// <summary>
-    /// Read type <see cref="T:AsyncNet.Tcp.Defragmentation.MixedDefragmentationStrategyReadType" />
+    /// Read type <see cref="T:AsyncNetStandard.Tcp.Defragmentation.MixedDefragmentationStrategyReadType" />
     /// </summary>
     MixedDefragmentationStrategyReadType ReadType { get; }
 

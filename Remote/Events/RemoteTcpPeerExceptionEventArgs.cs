@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.Events.RemoteTcpPeerExceptionEventArgsusing AsyncNetStandard.Core.Events;
+// Type: AsyncNetStandard.Tcp.Remote.Events.RemoteTcpPeerExceptionEventArgsusing AsyncNetStandard.Core.Events;
 using AsyncNetStandard.Core.Events;
 using System;
 

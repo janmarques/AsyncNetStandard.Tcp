@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.MixedDefragmenterusing AsyncNetStandard.Core.Extensions;
+// Type: AsyncNetStandard.Tcp.Defragmentation.MixedDefragmenterusing AsyncNetStandard.Core.Extensions;
 using AsyncNetStandard.Core.Extensions;
 using AsyncNetStandard.Tcp.Remote;
 using System;
@@ -18,7 +18,7 @@ namespace AsyncNetStandard.Tcp.Defragmentation
     private static readonly Lazy<MixedDefragmenter> @default = new Lazy<MixedDefragmenter>((Func<MixedDefragmenter>) (() => new MixedDefragmenter((IMixedDefragmentationStrategy) new DefaultProtocolFrameMixedDefragmentationStrategy())));
 
     /// <summary>
-    /// Default mixed defragmenter using <see cref="T:AsyncNet.Tcp.Defragmentation.DefaultProtocolFrameMixedDefragmentationStrategy" />
+    /// Default mixed defragmenter using <see cref="T:AsyncNetStandard.Tcp.Defragmentation.DefaultProtocolFrameMixedDefragmentationStrategy" />
     /// </summary>
     public static MixedDefragmenter Default => MixedDefragmenter.@default.Value;
 

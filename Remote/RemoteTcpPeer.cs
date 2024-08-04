@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.RemoteTcpPeerusing AsyncNetStandard.Core;
+// Type: AsyncNetStandard.Tcp.Remote.RemoteTcpPeerusing AsyncNetStandard.Core;
 using AsyncNetStandard.Core;
 using AsyncNetStandard.Tcp.Connection;
 using AsyncNetStandard.Tcp.Connection.Events;
@@ -70,7 +70,7 @@ namespace AsyncNetStandard.Tcp.Remote
     public event EventHandler<ConnectionClosedEventArgs> ConnectionClosed;
 
     /// <summary>
-    /// Underlying <see cref="P:AsyncNet.Tcp.Remote.RemoteTcpPeer.TcpClient" />. You should use <see cref="P:AsyncNet.Tcp.Remote.IRemoteTcpPeer.TcpStream" /> instead of TcpClient.GetStream()
+    /// Underlying <see cref="P:AsyncNetStandard.Tcp.Remote.RemoteTcpPeer.TcpClient" />. You should use <see cref="P:AsyncNetStandard.Tcp.Remote.IRemoteTcpPeer.TcpStream" /> instead of TcpClient.GetStream()
     /// </summary>
     public virtual TcpClient TcpClient { get; }
 

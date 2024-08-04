@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.LengthPrefixedDefragmenterusing AsyncNetStandard.Core.Extensions;
+// Type: AsyncNetStandard.Tcp.Defragmentation.LengthPrefixedDefragmenterusing AsyncNetStandard.Core.Extensions;
 using AsyncNetStandard.Core.Extensions;
 using AsyncNetStandard.Tcp.Remote;
 using System;
@@ -18,7 +18,7 @@ namespace AsyncNetStandard.Tcp.Defragmentation
     private static readonly Lazy<LengthPrefixedDefragmenter> @default = new Lazy<LengthPrefixedDefragmenter>((Func<LengthPrefixedDefragmenter>) (() => new LengthPrefixedDefragmenter((ILengthPrefixedDefragmentationStrategy) new DefaultProtocolFrameLengthPrefixedDefragmentationStrategy())));
 
     /// <summary>
-    /// Default length prefixed defragmenter using <see cref="T:AsyncNet.Tcp.Defragmentation.DefaultProtocolFrameLengthPrefixedDefragmentationStrategy" />
+    /// Default length prefixed defragmenter using <see cref="T:AsyncNetStandard.Tcp.Defragmentation.DefaultProtocolFrameLengthPrefixedDefragmentationStrategy" />
     /// </summary>
     public static LengthPrefixedDefragmenter Default => LengthPrefixedDefragmenter.@default.Value;
 

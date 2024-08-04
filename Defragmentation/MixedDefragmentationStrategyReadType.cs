@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.MixedDefragmentationStrategyReadType
+// Type: AsyncNetStandard.Tcp.Defragmentation.MixedDefragmentationStrategyReadType
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   /// <summary>Read type for mixed defragmentation strategy</summary>

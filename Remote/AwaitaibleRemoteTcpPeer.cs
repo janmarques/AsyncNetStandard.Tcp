@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.AwaitaibleRemoteTcpPeerusing AsyncNetStandard.Tcp.Connection.Events;
+// Type: AsyncNetStandard.Tcp.Remote.AwaitaibleRemoteTcpPeerusing AsyncNetStandard.Tcp.Connection.Events;
 using AsyncNetStandard.Tcp.Connection.Events;
 using AsyncNetStandard.Tcp.Remote.Events;
 using System;

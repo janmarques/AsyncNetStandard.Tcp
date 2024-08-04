@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.DefaultProtocolFrameLengthPrefixedDefragmentationStrategy
+// Type: AsyncNetStandard.Tcp.Defragmentation.DefaultProtocolFrameLengthPrefixedDefragmentationStrategy
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   public class DefaultProtocolFrameLengthPrefixedDefragmentationStrategy : 

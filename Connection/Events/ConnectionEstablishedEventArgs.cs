@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Connection.Events.ConnectionEstablishedEventArgsusing AsyncNetStandard.Tcp.Remote;
+// Type: AsyncNetStandard.Tcp.Connection.Events.ConnectionEstablishedEventArgsusing AsyncNetStandard.Tcp.Remote;
 using AsyncNetStandard.Tcp.Remote;
 using System;
 

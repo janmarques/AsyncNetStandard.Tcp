@@ -3,9 +3,9 @@
 	<PropertyGroup>
 		<ProjectGuid>{F4750CCB-0753-4F57-8AD7-BEDB97735ECD}</ProjectGuid>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<AssemblyName>AsyncNet.Tcp</AssemblyName>
+		<AssemblyName>AsyncNetStandard.Tcp</AssemblyName>
 		<Version>2.0.0</Version>
-		<RootNamespace>AsyncNet.Tcp</RootNamespace>
+		<RootNamespace>AsyncNetStandard.Tcp</RootNamespace>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 

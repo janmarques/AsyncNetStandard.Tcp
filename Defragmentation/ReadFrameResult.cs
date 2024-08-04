@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.ReadFrameResult
+// Type: AsyncNetStandard.Tcp.Defragmentation.ReadFrameResult
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   public class ReadFrameResult

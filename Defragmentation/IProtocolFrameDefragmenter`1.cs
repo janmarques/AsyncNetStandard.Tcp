@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.IProtocolFrameDefragmenter`1
+// Type: AsyncNetStandard.Tcp.Defragmentation.IProtocolFrameDefragmenter`1
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   /// <summary>

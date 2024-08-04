@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.RemoteTcpPeerOutgoingMessageusing AsyncNetStandard.Core;
+// Type: AsyncNetStandard.Tcp.Remote.RemoteTcpPeerOutgoingMessageusing AsyncNetStandard.Core;
 using AsyncNetStandard.Core;
 using System.Threading;
 using System.Threading.Tasks;

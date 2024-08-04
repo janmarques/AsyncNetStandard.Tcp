@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Connection.ConnectionCloseReason
+// Type: AsyncNetStandard.Tcp.Connection.ConnectionCloseReason
 namespace AsyncNetStandard.Tcp.Connection
 {
   public enum ConnectionCloseReason

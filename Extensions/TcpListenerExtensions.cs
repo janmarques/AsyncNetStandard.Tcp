@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Extensions.TcpListenerExtensionsusing System;
+// Type: AsyncNetStandard.Tcp.Extensions.TcpListenerExtensionsusing System;
 using System;
 using System.Net.Sockets;
 using System.Threading;

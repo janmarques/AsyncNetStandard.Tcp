@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Server.Events.TcpServerExceptionEventArgsusing AsyncNetStandard.Core.Events;
+// Type: AsyncNetStandard.Tcp.Server.Events.TcpServerExceptionEventArgsusing AsyncNetStandard.Core.Events;
 using AsyncNetStandard.Core.Events;
 using System;
 

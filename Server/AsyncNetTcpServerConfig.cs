@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Server.AsyncNetTcpServerConfigusing AsyncNetStandard.Tcp.Defragmentation;
+// Type: AsyncNetStandard.Tcp.Server.AsyncNetTcpServerConfigusing AsyncNetStandard.Tcp.Defragmentation;
 using AsyncNetStandard.Tcp.Defragmentation;
 using AsyncNetStandard.Tcp.Remote;
 using System;

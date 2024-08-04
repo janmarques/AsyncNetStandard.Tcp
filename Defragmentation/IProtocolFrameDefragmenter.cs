@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.IProtocolFrameDefragmenterusing AsyncNetStandard.Tcp.Remote;
+// Type: AsyncNetStandard.Tcp.Defragmentation.IProtocolFrameDefragmenterusing AsyncNetStandard.Tcp.Remote;
 using AsyncNetStandard.Tcp.Remote;
 using System.Threading;
 using System.Threading.Tasks;

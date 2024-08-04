@@ -1,6 +1,6 @@
 # AsyncNetStandard.Tcp
 
-Package taken from https://www.nuget.org/packages/AsyncNet.Tcp (MIT License), which was unlisted.
+Package taken from https://www.nuget.org/packages/AsyncNetStandard.Tcp (MIT License), which was unlisted.
 
 The original source code was unlisted as well ( https://github.com/bartlomiej-stys/AsyncNet ).
 

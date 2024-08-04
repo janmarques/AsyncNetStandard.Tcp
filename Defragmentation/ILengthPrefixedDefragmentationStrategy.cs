@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.ILengthPrefixedDefragmentationStrategy
+// Type: AsyncNetStandard.Tcp.Defragmentation.ILengthPrefixedDefragmentationStrategy
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   /// <summary>
@@ -8,7 +8,7 @@ namespace AsyncNetStandard.Tcp.Defragmentation
   public interface ILengthPrefixedDefragmentationStrategy
   {
     /// <summary>
-    /// Minimum number of bytes to read from stream so <see cref="M:AsyncNet.Tcp.Defragmentation.ILengthPrefixedDefragmentationStrategy.GetFrameLength(System.Byte[])" /> wiil be able to determine frame length
+    /// Minimum number of bytes to read from stream so <see cref="M:AsyncNetStandard.Tcp.Defragmentation.ILengthPrefixedDefragmentationStrategy.GetFrameLength(System.Byte[])" /> wiil be able to determine frame length
     /// </summary>
     int FrameHeaderLength { get; }
 

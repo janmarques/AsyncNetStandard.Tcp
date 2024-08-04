@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.Events.AddingTcpFrameToFrameBufferFailedEventArgsusing System;
+// Type: AsyncNetStandard.Tcp.Remote.Events.AddingTcpFrameToFrameBufferFailedEventArgsusing System;
 
 
 using System;

@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Client.IAwaitaibleAsyncNetTcpClientusing AsyncNetStandard.Tcp.Remote;
+// Type: AsyncNetStandard.Tcp.Client.IAwaitaibleAsyncNetTcpClientusing AsyncNetStandard.Tcp.Remote;
 using AsyncNetStandard.Tcp.Remote;
 using System;
 using System.Threading;

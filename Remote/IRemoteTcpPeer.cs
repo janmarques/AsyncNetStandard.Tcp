@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.IRemoteTcpPeerusing AsyncNetStandard.Tcp.Connection;
+// Type: AsyncNetStandard.Tcp.Remote.IRemoteTcpPeerusing AsyncNetStandard.Tcp.Connection;
 using AsyncNetStandard.Tcp.Connection;
 using AsyncNetStandard.Tcp.Connection.Events;
 using AsyncNetStandard.Tcp.Defragmentation;
@@ -35,7 +35,7 @@ namespace AsyncNetStandard.Tcp.Remote
     Stream TcpStream { get; }
 
     /// <summary>
-    /// Underlying <see cref="T:System.Net.Sockets.TcpClient" />. You should use <see cref="P:AsyncNet.Tcp.Remote.IRemoteTcpPeer.TcpStream" /> instead of TcpClient.GetStream()
+    /// Underlying <see cref="T:System.Net.Sockets.TcpClient" />. You should use <see cref="P:AsyncNetStandard.Tcp.Remote.IRemoteTcpPeer.TcpStream" /> instead of TcpClient.GetStream()
     /// </summary>
     TcpClient TcpClient { get; }
 

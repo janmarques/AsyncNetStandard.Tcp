@@ -1,12 +1,12 @@
 ﻿
-// Type: AsyncNet.Tcp.Remote.Events.TcpFrameArrivedEventArgs
+// Type: AsyncNetStandard.Tcp.Remote.Events.TcpFrameArrivedEventArgs
 namespace AsyncNetStandard.Tcp.Remote.Events
 {
   /// <summary>Contains sender and frame data</summary>
   public class TcpFrameArrivedEventArgs
   {
     /// <summary>
-    /// Creates <see cref="T:AsyncNet.Tcp.Remote.Events.TcpFrameArrivedEventArgs" /> with sender and frame data
+    /// Creates <see cref="T:AsyncNetStandard.Tcp.Remote.Events.TcpFrameArrivedEventArgs" /> with sender and frame data
     /// </summary>
     /// <param name="remoteTcpPeer">Sender</param>
     /// <param name="frameData">Entire frame data including any headers</param>

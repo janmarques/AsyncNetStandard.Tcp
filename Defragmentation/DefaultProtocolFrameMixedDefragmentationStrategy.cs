@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Defragmentation.DefaultProtocolFrameMixedDefragmentationStrategy
+// Type: AsyncNetStandard.Tcp.Defragmentation.DefaultProtocolFrameMixedDefragmentationStrategy
 namespace AsyncNetStandard.Tcp.Defragmentation
 {
   public class DefaultProtocolFrameMixedDefragmentationStrategy : IMixedDefragmentationStrategy

@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Client.IAsyncNetTcpClientusing AsyncNetStandard.Core.Events;
+// Type: AsyncNetStandard.Tcp.Client.IAsyncNetTcpClientusing AsyncNetStandard.Core.Events;
 using AsyncNetStandard.Core.Events;
 using AsyncNetStandard.Tcp.Client.Events;
 using AsyncNetStandard.Tcp.Connection.Events;

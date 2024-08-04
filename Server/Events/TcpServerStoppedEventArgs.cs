@@ -1,5 +1,5 @@
 ﻿
-// Type: AsyncNet.Tcp.Server.Events.TcpServerStoppedEventArgsusing System;
+// Type: AsyncNetStandard.Tcp.Server.Events.TcpServerStoppedEventArgsusing System;
 
 
 using System;
