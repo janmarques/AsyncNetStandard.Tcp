@@ -4,7 +4,7 @@ Package taken from https://www.nuget.org/packages/AsyncNetStandard.Tcp (MIT Lice
 
 The original source code was unlisted as well ( https://github.com/bartlomiej-stys/AsyncNet ).
 
-Dropped the .NET Framework support and republished
+Dropped the .NET Framework support and republished on NuGet: https://www.nuget.org/packages/AsyncNetStandard.Tcp
 
 ## Usage
 // TODO
