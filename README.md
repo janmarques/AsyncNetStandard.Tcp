@@ -13,6 +13,8 @@ Dropped the .NET Framework support and republished on NuGet: https://www.nuget.o
 using AsyncNetStandard.Tcp.Server;
 _client = new AsyncNetTcpServer(_port);
 _client.FrameArrived += async (s, e) => await ProcessPacket(e.FrameData, e.RemoteTcpPeer);
+_task = Task.Run(async () => await _client.StartAsync(_cancellationToken), _cancelationTokenSource.Token);
+
 
 await peer.SendAsync(sendBytes);
 ```
