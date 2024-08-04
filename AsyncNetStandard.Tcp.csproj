@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--Project was exported from assembly: C:\Users\pc2020\AppData\Local\Temp\Sibazez\8776f9b9f3\lib\netstandard2.0\AsyncNet.Tcp.dll-->
+  <PropertyGroup>
+    
+    <ProjectGuid>{F4750CCB-0753-4F57-8AD7-BEDB97735ECD}</ProjectGuid>
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+    <AssemblyName>AsyncNet.Tcp</AssemblyName>
+    <ApplicationVersion>1.2.6.0</ApplicationVersion>
+    <RootNamespace>AsyncNet.Tcp</RootNamespace>
+ 
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="System.Threading.Tasks.Dataflow" Version="8.0.0" />
+	
+
+  </ItemGroup>
+  
+</Project>
