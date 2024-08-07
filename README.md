@@ -1,8 +1,6 @@
 # AsyncNetStandard.Tcp
 
-Package taken from https://www.nuget.org/packages/AsyncNetStandard.Tcp (MIT License), which was unlisted.
-
-The original source code was unlisted as well ( https://github.com/bartlomiej-stys/AsyncNet ).
+Some backgroupnd: package taken from https://www.nuget.org/packages/AsyncNet.Tcp (MIT License), which was unlisted, the original source code was unlisted as well ( https://github.com/bartlomiej-stys/AsyncNet ).
 
 Dropped the .NET Framework support and republished on NuGet: https://www.nuget.org/packages/AsyncNetStandard.Tcp
 
